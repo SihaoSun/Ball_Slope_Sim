@@ -1,6 +1,6 @@
-theta_eq = 0;
+theta0 = 0;
 
-A = [0 1; g*cos(theta_eq),0]; B = [0; 1];
+A = [0 1; g*cos(theta0),0]; B = [0; 1];
 
 QQ = diag([1,1]); RR = [0.1];
 

@@ -1,5 +1,5 @@
-close all;
-clear all;
+% close all;
+% clear all;
 
 %% parameters
 m = 1; %mass of the ball, kg
@@ -49,4 +49,4 @@ lqr_des;
 
 %% initialization of RLS
 C0 = [0 0 0]';
-P0 = 100*eye(3);
+P0 = 1*eye(3);
